@@ -16,15 +16,20 @@
      limitations under the License.
 -->
 <manifest>
-	<project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
-	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1"/>
-	<project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-14.1"/>
-	<project path="device/samsung/sprd-common" name="diepquynh/android_device_samsung_sprd-common" remote="github" revision="cm-14.1"/>
-	<project path="device/samsung/coreprimeve3g" name="diepquynh/android_device_samsung_coreprimeve3g" remote="github" revision="cm-14.1"/>
-	<project path="device/samsung/scx30g2-common" name="diepquynh/android_device_samsung_scx30g2-common" remote="github" revision="cm-14.1"/>
-	<project path="device/samsung/scx35-common" name="diepquynh/android_device_samsung_scx35-common" remote="github" revision="cm-14.1"/>
-	<project path="hardware/sprd" name="diepquynh/android_hardware_sprd" remote="github" revision="cm-14.1"/>
-	<project path="kernel/samsung/coreprimeve3g" name="diepquynh/android_kernel_samsung_coreprimeve3g" remote="github" revision="cm-14.1"/>
-	<project path="vendor/samsung/coreprimeve3g" name="diepquynh/android_vendor_samsung_coreprimeve3g" remote="github" revision="cm-14.1"/>
-	<project path="vendor/samsung/scx30g2-common" name="diepquynh/android_vendor_samsung_scx30g2-common" remote="github" revision="cm-14.1"/>
+	<remote name="t25" fetch="https://github.com/TelegramAt25" />
+	<remote name="remilia" fetch="https://github.com/diepquynh" />
+	<remote name="LOS" fetch="https://github.com/LineageOS" />
+
+	<project path="external/stlport" name="android_external_stlport" remote="LOS" revision="cm-14.1"/>
+	<project path="hardware/samsung" name="android_hardware_samsung" remote="LOS" revision="cm-14.1"/>
+	<project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="LOS" revision="cm-14.1"/>
+
+	<project path="device/samsung/sprd-common" name="android_device_samsung_sprd-common" remote="remilia" revision="cm-14.1"/>
+	<project path="device/samsung/coreprimeve3g" name="android_device_samsung_coreprimeve3g" remote="remilia" revision="cm-14.1"/>
+	<project path="device/samsung/scx30g2-common" name="android_device_samsung_scx30g2-common" remote="remilia" revision="cm-14.1"/>
+	<project path="device/samsung/scx35-common" name="android_device_samsung_scx35-common" remote="remilia" revision="cm-14.1"/>
+	<project path="hardware/sprd" name="android_hardware_sprd" remote="remilia" revision="cm-14.1"/>
+	<project path="kernel/samsung/coreprimeve3g" name="android_kernel_samsung_coreprimeve3g" remote="remilia" revision="cm-14.1"/>
+	<project path="vendor/samsung/coreprimeve3g" name="android_vendor_samsung_coreprimeve3g" remote="remilia" revision="cm-14.1"/>
+	<project path="vendor/samsung/scx30g2-common" name="android_vendor_samsung_scx30g2-common" remote="remilia" revision="cm-14.1"/>
 </manifest>
